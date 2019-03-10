@@ -2,6 +2,9 @@
 //
 // master.adoc
 
+include::attributes.adoc[]
+
+ifdef::context[:parent-context: {context}]
 
 [id='knative-minishift_{context}']
 = Knative on a Minishift cluster
