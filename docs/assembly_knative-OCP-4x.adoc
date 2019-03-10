@@ -2,6 +2,9 @@
 //
 // master.adoc
 
+include::attributes.adoc[]
+
+ifdef::context[:parent-context: {context}]
 
 [id='knative-ocp-4x_{context}']
 = Knative on an OpenShift cluster 4.0
