@@ -1,10 +1,7 @@
 = Serverless
 
-link:https://antora.org[Antora] is a great static file generator, this is not.
-Antora solves documentation issues relating to versioning and repo complexity, Arotna doesn't solve anything.
+Severless employs Kubernetes, Istio, and Knative. Install Knative to begin you serverless journey. 
 
-You could say Arotna is the opposite to Antora. It just allows you edit and push adoc file to update your GitHub pages website.
-
-* link:index.html?e=knative-minishift.md[Using Knative with Minishift]
-* link:index.html?e=knative-OCP-311.md[Using Knative with OpenShift 3.11 ]
-* link:index.html?e=knative-OCP-4x.md[Using Knative with OpenShift 4.0]
+* link:index.html?e=assembly_knative-minishift.adoc[Using Knative with Minishift]
+* link:index.html?e=assembly_knative-OCP-311.adoc[Using Knative with OpenShift 3.11 ]
+* link:index.html?e=assembly_knative-OCP-4x.adoc[Using Knative with OpenShift 4.0]
