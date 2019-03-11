@@ -160,7 +160,6 @@
   --pf-global--arrow--width-lg: 1.5625rem;
   --pf-global--target-size--MinWidth: 44px;
   --pf-global--target-size--MinHeight: 44px; }
-
 /*!
  * Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -552,7 +551,6 @@ readers do not read off random characters that represent icons */
   margin: 0;
   overflow: visible;
   clip: auto; }
-
 /*!
  * Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -1585,7 +1583,6 @@ html {
   padding-right: 0;
   overflow-x: hidden;
   overflow-y: auto; }
-
 .pf-l-page__main-nav {
   padding: var(--pf-l-page__main-nav--PaddingTop) var(--pf-l-page__main-nav--PaddingRight) var(--pf-l-page__main-nav--PaddingBottom) var(--pf-l-page__main-nav--PaddingLeft);
   background-color: var(--pf-l-page__main-nav--BackgroundColor); }
@@ -2779,7 +2776,6 @@ html {
 
 .pf-u-pl-3xl {
   padding-left: var(--pf-global--spacer--3xl) !important; }
-
 .pf-u-px-auto {
   padding-right: auto !important;
   padding-left: auto !important; }
@@ -4880,226 +4876,7 @@ html {
 
 @media screen and (min-width: 1200px) {
   .pf-u-pb-2xl-on-xl {
-    padding-bottom: var(--pf-global--spacer--2xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pb-3xl-on-xl {
-    padding-bottom: var(--pf-global--spacer--3xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-auto-on-xl {
-    padding-left: auto !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-0-on-xl {
-    padding-left: 0 !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-xs-on-xl {
-    padding-left: var(--pf-global--spacer--xs) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-sm-on-xl {
-    padding-left: var(--pf-global--spacer--sm) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-md-on-xl {
-    padding-left: var(--pf-global--spacer--md) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-lg-on-xl {
-    padding-left: var(--pf-global--spacer--lg) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-xl-on-xl {
-    padding-left: var(--pf-global--spacer--xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-2xl-on-xl {
-    padding-left: var(--pf-global--spacer--2xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-pl-3xl-on-xl {
-    padding-left: var(--pf-global--spacer--3xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-auto-on-xl {
-    padding-right: auto !important;
-    padding-left: auto !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-0-on-xl {
-    padding-right: 0 !important;
-    padding-left: 0 !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-xs-on-xl {
-    padding-right: var(--pf-global--spacer--xs) !important;
-    padding-left: var(--pf-global--spacer--xs) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-sm-on-xl {
-    padding-right: var(--pf-global--spacer--sm) !important;
-    padding-left: var(--pf-global--spacer--sm) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-md-on-xl {
-    padding-right: var(--pf-global--spacer--md) !important;
-    padding-left: var(--pf-global--spacer--md) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-lg-on-xl {
-    padding-right: var(--pf-global--spacer--lg) !important;
-    padding-left: var(--pf-global--spacer--lg) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-xl-on-xl {
-    padding-right: var(--pf-global--spacer--xl) !important;
-    padding-left: var(--pf-global--spacer--xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-2xl-on-xl {
-    padding-right: var(--pf-global--spacer--2xl) !important;
-    padding-left: var(--pf-global--spacer--2xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-px-3xl-on-xl {
-    padding-right: var(--pf-global--spacer--3xl) !important;
-    padding-left: var(--pf-global--spacer--3xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-auto-on-xl {
-    padding-top: auto !important;
-    padding-bottom: auto !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-0-on-xl {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-xs-on-xl {
-    padding-top: var(--pf-global--spacer--xs) !important;
-    padding-bottom: var(--pf-global--spacer--xs) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-sm-on-xl {
-    padding-top: var(--pf-global--spacer--sm) !important;
-    padding-bottom: var(--pf-global--spacer--sm) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-md-on-xl {
-    padding-top: var(--pf-global--spacer--md) !important;
-    padding-bottom: var(--pf-global--spacer--md) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-lg-on-xl {
-    padding-top: var(--pf-global--spacer--lg) !important;
-    padding-bottom: var(--pf-global--spacer--lg) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-xl-on-xl {
-    padding-top: var(--pf-global--spacer--xl) !important;
-    padding-bottom: var(--pf-global--spacer--xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-2xl-on-xl {
-    padding-top: var(--pf-global--spacer--2xl) !important;
-    padding-bottom: var(--pf-global--spacer--2xl) !important; } }
-
-@media screen and (min-width: 1200px) {
-  .pf-u-py-3xl-on-xl {
-    padding-top: var(--pf-global--spacer--3xl) !important;
-    padding-bottom: var(--pf-global--spacer--3xl) !important; } }
-
-/*!
- * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-.fa,
-.fas,
-.far,
-.fal,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1; }
-
-.fa-lg {
-  font-size: 1.33333em;
-  line-height: 0.75em;
-  vertical-align: -.0667em; }
-
-.fa-xs {
-  font-size: .75em; }
-
-.fa-sm {
-  font-size: .875em; }
-
-.fa-1x {
-  font-size: 1em; }
-
-.fa-2x {
-  font-size: 2em; }
-
-.fa-3x {
-  font-size: 3em; }
-
-.fa-4x {
-  font-size: 4em; }
-
-.fa-5x {
-  font-size: 5em; }
-
-.fa-6x {
-  font-size: 6em; }
-
-.fa-7x {
-  font-size: 7em; }
-
-.fa-8x {
-  font-size: 8em; }
-
-.fa-9x {
-  font-size: 9em; }
-
-.fa-10x {
-  font-size: 10em; }
-
-.fa-fw {
-  text-align: center;
-  width: 1.25em; }
-
-.fa-ul {
-  list-style-type: none;
-  margin-left: 2.5em;
-  padding-left: 0; }
-  .fa-ul > li {
-    position: relative; }
-
-.fa-li {
-  left: -2em;
-  position: absolute;
-  text-align: center;
-  width: 2em;
-  line-height: inherit; }
-
-.fa-border {
-  border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em; }
-
-.fa-pull-left {
-  float: left; }
-
-.fa-pull-right {
-  float: right; }
-
-.fa.fa-pull-left,
+    .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
@@ -8983,7 +8760,7 @@ h5,
 h6,
 .integr8ly-h6 {
   font-size: 0.875rem; }
-
+    
 h1,
 h2,
 h3,
@@ -9879,6 +9656,82 @@ ol {
     .integr8ly-copy > .input-group .input-group-btn {
       width: auto; }
 
+
+
+
+      .admonitionblock {
+        margin: 1.4rem 0 0;
+      }
+      
+      
+      .admonitionblock td.content > :first-child {
+        margin: 0;
+      }
+      
+      .admonitionblock pre {
+        font-size: 0.85rem;
+      }
+      
+      .admonitionblock > table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        position: relative;
+        width: 100%;
+      }
+      
+      .admonitionblock td.content {
+        padding: 1rem 1rem 0.75rem;
+        background-color: #fafafa;
+        width: 100%;
+      }
+      
+      .admonitionblock .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+        height: 1.25rem;
+        line-height: 1;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 0.45rem;
+        color: #fff;
+        transform: translate(-0.5rem, -50%);
+      }
+      
+      .admonitionblock.caution .icon {
+        background-color: #a0439c;
+      }
+      
+      .admonitionblock.important .icon {
+        background-color: #d32f2f;
+      }
+      
+      .admonitionblock.note .icon {
+        background-color: #217ee7;
+      }
+      
+      .admonitionblock.tip .icon {
+        background-color: #41af46;
+      }
+      
+      .admonitionblock.warning .icon {
+        background-color: #e18114;
+      }
+      
+      .admonitionblock .icon i {
+        display: inline-flex;
+        align-items: center;
+        height: 100%;
+      }
+      
+      .admonitionblock .icon i::after {
+        content: attr(title);
+        hyphens: none;
+      }
+      
+
 /*!
 **
 ** The following images are licensed under XXXX with attribution
@@ -9887,3 +9740,7 @@ ol {
 ** by Adam
 **
 */
+
+
+
+
