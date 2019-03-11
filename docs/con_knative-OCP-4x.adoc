@@ -17,5 +17,5 @@ You will need cluster administrator privileges to install and use Knative on an 
 [cols="50,50"]
 |===
 |** Platform**     | **Supported versions**   
-| OpenShift    | 4.0 Developer Preview
+| OpenShift    | link:https://try.openshift.com/[4.0 Developer Preview]
 |===
