@@ -1236,7 +1236,102 @@ html {
   @media screen and (min-width: 576px) {
     .pf-c-content dd {
       grid-column: 2; } }
-
+@charset "UTF-8";
+2
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+3
+@import url("https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.37.10/css/patternfly.min.css");
+4
+@import url("https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.37.10/css/patternfly-additions.min.css");
+5
+/* stylelint-enable */
+6
+.pf-t-light {
+7
+  --pf-global--Color--100: var(--pf-global--Color--dark-100);
+8
+  --pf-global--Color--200: var(--pf-global--Color--dark-200);
+9
+  --pf-global--BorderColor: var(--pf-global--BorderColor--dark);
+10
+  --pf-global--active-color--100: var(--pf-global--active-color--100);
+11
+  --pf-global--active-color--100: var(--pf-global--active-color--100);
+12
+  --pf-global--primary-color--100: var(--pf-global--primary-color--dark-100);
+13
+  --pf-global--link--Color: var(--pf-global--primary-color--dark-100); }
+14
+  .pf-t-light .pf-c-button {
+15
+    --pf-c-button--m-secondary--BoxShadowColor: var(--pf-global--primary-color--100);
+16
+    --pf-c-button--m-secondary--Color: var(--pf-global--primary-color--dark-100);
+17
+    --pf-c-button--m-secondary--hover--BoxShadowColor: var(--pf-global--primary-color--200);
+18
+    --pf-c-button--m-secondary--hover--Color: var(--pf-global--primary-color--dark-200);
+19
+    --pf-c-button--m-secondary--focus--BoxShadowColor: var(--pf-global--primary-color--200);
+20
+    --pf-c-button--m-secondary--active--BoxShadowColor: var(--pf-global--primary-color--200); }
+21
+​
+22
+.pf-t-dark, .pf-l-page__header, .pf-l-page__main-section[class^="pf-m-dark"] {
+23
+  --pf-global--Color--100: var(--pf-global--Color--light-100);
+24
+  --pf-global--Color--200: var(--pf-global--Color--light-200);
+25
+  --pf-global--BorderColor: var(--pf-global--BorderColor--light);
+26
+  --pf-global--active-color--100: var(--pf-global--active-color--100);
+27
+  --pf-global--primary-color--100: var(--pf-global--primary-color--light-100);
+28
+  --pf-global--link--Color: var(--pf-global--primary-color--light-100);
+29
+  --pf-global--link--Color--hover: var(--pf-global--link--Color--light-hover); }
+30
+  .pf-t-dark .pf-c-button, .pf-l-page__header .pf-c-button, .pf-l-page__main-section[class^="pf-m-dark"] .pf-c-button {
+31
+    --pf-c-button--m-secondary--BoxShadowColor: var(--pf-global--Color--light-100);
+32
+    --pf-c-button--m-secondary--Color: var(--pf-global--Color--light-100);
+33
+    --pf-c-button--m-secondary--hover--BoxShadowColor: var(--pf-global--Color--light-100);
+34
+    --pf-c-button--m-secondary--hover--Color: var(--pf-global--Color--light-100);
+35
+    --pf-c-button--m-secondary--focus--BoxShadowColor: var(--pf-global--Color--light-100);
+36
+    --pf-c-button--m-secondary--focus--Color: var(--pf-global--Color--light-100);
+37
+    --pf-c-button--m-secondary--active--BoxShadowColor: var(--pf-global--Color--light-100);
+38
+    --pf-c-button--m-secondary--active--Color: var(--pf-global--Color--light-100);
+39
+    --pf-c-button--m-tertiary--BoxShadowColor: var(--pf-global--Color--light-100);
+40
+    --pf-c-button--m-tertiary--Color: var(--pf-global--Color--light-100);
+41
+    --pf-c-button--m-tertiary--hover--BoxShadowColor: var(--pf-global--Color--light-100);
+42
+    --pf-c-button--m-tertiary--hover--Color: var(--pf-global--Color--light-100);
+43
+    --pf-c-button--m-tertiary--focus--BoxShadowColor: var(--pf-global--Color--light-100);
+44
+    --pf-c-button--m-tertiary--focus--Color: var(--pf-global--Color--light-100);
+45
+    --pf-c-button--m-tertiary--active--BoxShadowColor: var(--pf-global--Color--light-100);
+46
+    --pf-c-button--m-tertiary--active--Color: var(--pf-global--Color--light-100); }
+47
+  .pf-t-dark .pf-c-card, .pf-l-page__header .pf-c-card, .pf-l-page__main-section[class^="pf-m-dark"] .pf-c-card {
+48
+    --pf-c-card--BackgroundColor: var(--pf-global--BackgroundColor--dark-transparent-200); }
+49
 .pf-c-progress {
   --pf-c-progress--GridGap: var(--pf-global--spacer--md);
   --pf-c-progress__bar--BackgroundColor: var(--pf-global--primary-color--100);
@@ -4039,7 +4134,6 @@ html {
 @media screen and (min-width: 992px) {
   .pf-u-mr-3xl-on-lg {
     margin-right: var(--pf-global--spacer--3xl) !important; } }
-
 @media screen and (min-width: 992px) {
   .pf-u-mb-auto-on-lg {
     margin-bottom: auto !important; } }
@@ -6891,7 +6985,6 @@ readers do not read off random characters that represent icons */
 
 .fa-history:before {
   content: "\f1da"; }
-
 .fa-hockey-puck:before {
   content: "\f453"; }
 
@@ -9338,7 +9431,6 @@ ol {
     justify-content: center;
     margin: 10px auto 0;
     z-index: 5; }
-
 .integr8ly-app-login {
   background-image: none;
   bottom: 0;
@@ -9879,6 +9971,82 @@ ol {
     .integr8ly-copy > .input-group .input-group-btn {
       width: auto; }
 
+
+
+
+      .admonitionblock {
+        margin: 1.4rem 0 0;
+      }
+      
+      
+      .admonitionblock td.content > :first-child {
+        margin: 0;
+      }
+      
+      .admonitionblock pre {
+        font-size: 0.85rem;
+      }
+      
+      .admonitionblock > table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        position: relative;
+        width: 100%;
+      }
+      
+      .admonitionblock td.content {
+        padding: 1rem 1rem 0.75rem;
+        background-color: #fafafa;
+        width: 100%;
+      }
+      
+      .admonitionblock .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+        height: 1.25rem;
+        line-height: 1;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 0.45rem;
+        color: #fff;
+        transform: translate(-0.5rem, -50%);
+      }
+      
+      .admonitionblock.caution .icon {
+        background-color: #a0439c;
+      }
+      
+      .admonitionblock.important .icon {
+        background-color: #d32f2f;
+      }
+      
+      .admonitionblock.note .icon {
+        background-color: #217ee7;
+      }
+      
+      .admonitionblock.tip .icon {
+        background-color: #41af46;
+      }
+      
+      .admonitionblock.warning .icon {
+        background-color: #e18114;
+      }
+      
+      .admonitionblock .icon i {
+        display: inline-flex;
+        align-items: center;
+        height: 100%;
+      }
+      
+      .admonitionblock .icon i::after {
+        content: attr(title);
+        hyphens: none;
+      }
+      
+
 /*!
 **
 ** The following images are licensed under XXXX with attribution
@@ -9887,3 +10055,6 @@ ol {
 ** by Adam
 **
 */
+
+
+
