@@ -9656,36 +9656,31 @@ ol {
     .integr8ly-copy > .input-group .input-group-btn {
       width: auto; }
 
-
-
-
-      .admonitionblock {
-        margin: 1.4rem 0;
-      }
+  .admonitionblock {margin: 1.4rem 0;
+    }
       
-      
-      .admonitionblock td.content > :first-child {
+  .admonitionblock td.content > :first-child {
         margin: 0;
       }
       
-      .admonitionblock pre {
+  .admonitionblock pre {
         font-size: 0.85rem;
       }
       
-      .admonitionblock > table {
+  .admonitionblock > table {
         border-collapse: collapse;
         table-layout: fixed;
         position: relative;
         width: 100%;
       }
       
-      .admonitionblock td.content {
+  .admonitionblock td.content {
         padding: 1rem 1rem 0.75rem;
         background-color: #fafafa;
         width: 100%;
       }
       
-      .admonitionblock. icon {
+  .admonitionblock. icon {
         position: absolute;
         top: 0;
         left: 0;
@@ -9700,33 +9695,33 @@ ol {
         transform: translate(-0.5rem, -50%);
       }
       
-      .admonitionblock.caution. icon {
+  .admonitionblock.caution. icon {
         background-color: #a0439c;
       }
       
-      .admonitionblock.important. icon {
+  .admonitionblock.important. icon {
         background-color: #d32f2f;
       }
       
-      .admonitionblock.note. icon {
+  .admonitionblock.note. icon {
         background-color: #217ee7;
       }
       
-      .admonitionblock.tip. icon {
+  .admonitionblock.tip. icon {
         background-color: #41af46;
       }
       
-      .admonitionblock.warning. icon {
+  .admonitionblock.warning. icon {
         background-color: #e18114;
       }
       
-      .admonitionblock. icon i {
+  .admonitionblock. icon i {
         display: inline-flex;
         align-items: center;
         height: 100%;
       }
       
-      .admonitionblock. icon i::after {
+  .admonitionblock. icon i::after {
         content: attr(title);
         hyphens: none;
       }
