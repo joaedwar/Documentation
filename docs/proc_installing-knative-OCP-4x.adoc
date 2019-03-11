@@ -17,25 +17,32 @@ NOTE: This Knative on OpenShift preview is only available by using the OpenShift
 .Procedure 
 
 . Login to the cluster using your admin credentials.
-
++
+----
    `oc login <admin-credentials>`
-   
-. Clone the `knative-operators` repository.
+----
 
+. Clone the `knative-operators` repository.
++
+----
    `git clone https://github.com/openshift-cloud-functions/knative-operators`   
    `cd knative-operators/`   
    `git fetch --tags`   
    `git checkout openshift-v0.3.0`   
+----
 
 . Navigate to the newly cloned repository and run the `install.sh` script.
-
++
+----
    `./etc/scripts/install.sh`  
+----
 
 NOTE: The installation script takes 20-30 minutes to complete, depending on your system.
 
 [start=4]
 . Once the script starts, you will see the following warning and prompt:
-
++
+----
     `WARNING: This script will attempt to install Istio, Knative, and OLM in your Kubernetes/OpenShift cluster.`
     
     `If targeting OpenShift, a recent version of 'oc' should be available in your PATH. Otherwise, 'kubectl' will be used.`
@@ -45,6 +52,7 @@ NOTE: The installation script takes 20-30 minutes to complete, depending on your
     `Pass -q to disable this prompt`
  
     `Enter to continue or Ctrl-C to exit:`
+----
 
 . Press Enter to continue.
 
