@@ -9660,7 +9660,7 @@ ol {
 
 
       .admonitionblock {
-        margin: 1.4rem 0 0;
+        margin: 1.4rem 0;
       }
       
       
@@ -9685,12 +9685,12 @@ ol {
         width: 100%;
       }
       
-      .admonitionblock .icon {
+      .admonitionblock.icon {
         position: absolute;
         top: 0;
         left: 0;
         font-size: 0.75rem;
-        padding: 0 0.5rem;
+        padding: 0.5rem;
         height: 1.25rem;
         line-height: 1;
         font-weight: 500;
@@ -9700,33 +9700,33 @@ ol {
         transform: translate(-0.5rem, -50%);
       }
       
-      .admonitionblock.caution .icon {
+      .admonitionblock.caution.icon {
         background-color: #a0439c;
       }
       
-      .admonitionblock.important .icon {
+      .admonitionblock.important.icon {
         background-color: #d32f2f;
       }
       
-      .admonitionblock.note .icon {
+      .admonitionblock.note.icon {
         background-color: #217ee7;
       }
       
-      .admonitionblock.tip .icon {
+      .admonitionblock.tip.icon {
         background-color: #41af46;
       }
       
-      .admonitionblock.warning .icon {
+      .admonitionblock.warning.icon {
         background-color: #e18114;
       }
       
-      .admonitionblock .icon i {
+      .admonitionblock.icon i {
         display: inline-flex;
         align-items: center;
         height: 100%;
       }
       
-      .admonitionblock .icon i::after {
+      .admonitionblock.icon i::after {
         content: attr(title);
         hyphens: none;
       }
