@@ -5,7 +5,10 @@
 
 [id='knative-ocp-4x_{context}']
 = Knative on an OpenShift 4.0 cluster
-----
+
+{nbsp} +
+{nbsp} +
+
 NOTE: The functionality introduced by Knative on an OpenShift cluster is preview only. Red Hat support is not provided, and this release should not be used in a production environment.
 
 IMPORTANT: This Knative on OpenShift preview is only available by using the OpenShift 4.0 developer preview. You will require a Red Hat Developers login to try this. Visit link:https://try.openshift.com/[try.openshift.com] for getting started information.
