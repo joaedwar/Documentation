@@ -10,6 +10,8 @@ Use a configured hostname to access Knative services.
 
 NOTE: By default, Knative services are not accessible outside the OpenShift cluster. You can enable access by configuring a hostname. This method uses wildcard routing to automatically assign a hostname.
 
+{nbsp} +
+{nbsp} +
 
 .*Procedure*
 . Find the default routing subdomain of your OpenShift cluster. 
@@ -77,7 +79,8 @@ NOTE: This route requires one host per namespace, which runs Knative services. T
    `oc get service.serving.knative.dev/dumpy`   
 ----
 
-
+{nbsp} +
+{nbsp} +
 
 .Additional resources
 
