@@ -5,7 +5,10 @@
 
 [id='knative-minishift_{context}']
 = Knative on a Minishift cluster
-----
+
+{nbsp} +
+{nbsp} +
+
 
 NOTE: The functionality introduced is developer preview only. Red Hat support is not provided, and this release should not be used in a production environment.
 
