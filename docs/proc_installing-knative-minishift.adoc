@@ -6,20 +6,15 @@
 [id='installing-knative-minishift_{context}']
 = Installing Knative on a Minishift cluster using a script
 
-{nbsp} +
-{nbsp} +
-
 Use the script `install-on-minishift.sh`, to install Knative on a Minishift cluster.
 
 NOTE: `install-on-minishift.sh` is destructive. It destroys the existing `knative` profile and recreates it with a working configuration.
 
 {nbsp} +
-{nbsp} +
 
 .*Prerequisites*
 * You need cluster administrator privileges to install and use Knative on a Minishift cluster.
 
-{nbsp} +
 {nbsp} +
 
 .*Procedure*
