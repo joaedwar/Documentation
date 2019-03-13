@@ -8,12 +8,8 @@
 
 Use a configured hostname to access Knative services.
 
-{nbsp} +
-{nbsp} +
-
 NOTE: By default, Knative services are not accessible outside the OpenShift cluster. You can enable access by configuring a hostname. This method uses wildcard routing to automatically assign a hostname.
 
-{nbsp} +
 {nbsp} +
 
 .*Procedure*
