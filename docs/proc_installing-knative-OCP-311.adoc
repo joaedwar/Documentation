@@ -63,3 +63,8 @@ NOTE: The installation script takes around 20-30 minutes to complete, depending 
 ----
 
 . Press Enter to continue.
+
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
