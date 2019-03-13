@@ -6,14 +6,10 @@
 [id='knative-ocp-311_{context}']
 = Knative on an OpenShift cluster
 
-{nbsp} +
-{nbsp} +
-
 NOTE: The functionality introduced by Knative on an OpenShift cluster is developer preview only. Red Hat support is not provided, and this release should not be used in a production environment.
 
 The script installation method is recommended.
 
-{nbsp} +
 {nbsp} +
 
 === Supported platform version
@@ -24,6 +20,8 @@ The script installation method is recommended.
 |===
 
 {nbsp} +
-{nbsp} +
 
 NOTE: Installation of Docker and Kubernetes are required to use Knative on an OpenShift cluster. These components are outside the scope of this documentation.
+
+{nbsp} +
+{nbsp} +
