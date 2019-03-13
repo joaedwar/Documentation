@@ -6,15 +6,10 @@
 [id='knative-minishift_{context}']
 = Knative on a Minishift cluster
 
-{nbsp} +
-{nbsp} +
-
-
 NOTE: The functionality introduced is developer preview only. Red Hat support is not provided, and this release should not be used in a production environment.
 
 All of the required components of Knative on a Minishift cluster, including software dependencies and configurations, can be installed by using the script provided by Red Hat in the OpenShift Cloud Functions `knative-operators` repository. The script installation method is recommended.
 
-{nbsp} +
 {nbsp} +
 
 === Supported platform version
@@ -28,8 +23,11 @@ All of the required components of Knative on a Minishift cluster, including soft
 NOTE: Installation of Docker and Kubernetes are required to use Knative on an OpenShift cluster. These components, however, are outside the scope of this documentation.
 
 {nbsp} +
-{nbsp} +
 
 === Resource requirements
 
 The Minishift cluster must have at least 10GB of memory allocated to run Knative correctly. If you are running Minishift on your local machine, ensure that virtualization is enabled, as this installation requires the use of virtual machines (KVM).
+
+{nbsp} +
+{nbsp} +
+
